@@ -1,0 +1,219 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* header styling */
+
+header{
+    width: 100%;
+    background-color: rgba(23,23,23,0.15);
+    padding: 15px;
+    position: absolute;
+    top: 0;
+}
+header a{
+    text-decoration: none;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-family: Tahoma;
+    margin-right: 100px;
+    color: blanchedalmond;
+
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* body banner-container part styling */
+
+.banner-container{
+    width: 100%;
+    background-image: linear-gradient(rgba(30, 159, 219, 0.849),rgb(16, 41, 10)),url("./backgroundimageedited.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+}
+
+/* left-section part styling */
+
+.banner-container .container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+
+.banner-container .left-section{
+    margin: 0;
+    width: 600px;
+    align-self: flex-start;
+    
+    
+    
+}
+
+
+
+.left-section h1{
+    color: rgb(24, 212, 196);
+    margin: 0;
+    font-size: 35px;
+}
+.left-section p{
+    margin: 0;
+    font-size: 14px;
+    font-family: Tahoma;
+    letter-spacing: 1px;
+    line-height: 25px;
+
+}
+.left-section button{
+    color: rgb(185, 63, 63);
+    background-color: white;
+    border: none;
+    padding: 7px 5px;
+    border-radius: 6px;
+    margin-top: 15px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+
+/* right-section part styling */
+
+.right-section{
+    width: 400px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 40px 0;
+    box-shadow: 3px 5px 6px rgba(0,0,0);
+}
+.right-section h4{
+    font-size: 25px;
+    width: 300px;
+    margin: auto;
+    margin-bottom: 30px;
+
+}
+
+/* box styling*/
+
+.input-group{
+    width: 300px;
+    margin: 30px auto;
+    
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.input-group label{
+    color: rgb(175, 9, 9);
+    font-size: 14px;
+    position: absolute;
+    
+    top: 10px;
+    transition: 0.5s ease-in-out;
+}
+
+.input-group input{
+    
+    border: none;
+    padding: 7px;
+    margin-top: 6px;
+    outline: none;
+    border-bottom: 1px solid black;
+
+}
+.input-group input:focus-label, .input-group input:valid~label{
+    color:black;
+    top: 50px;
+    font: size 12px;
+}
+
+/* submit button styling*/
+
+.submit-section button{
+    background-color: rgb(64, 107, 172);
+    color: black;
+    border-radius: 5px;
+    padding: 8px 5px;
+    margin-top: 15px;
+    width: 200px;
+    cursor: pointer;
+
+
+}
+.submit-section{
+    text-align: center;
+}
+.submit-section:hover{
+    box-shadow: 0px 3px 6px silver;
+}
+
+/* Image part styling*/
+
+.image-container{
+    width: 100%;
+    height: 450px;
+    
+}
+
+.image-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.section-two{
+    display: flex;
+    justify-content: space-evenly;
+    height: 100vh;
+    align-items: center;
+
+    
+}
+
+.card-container h1{
+    color: black;
+}
+.card-container{
+    width: 350px;
+    border-radius: 15px;
+    box-shadow: 10px 5px 26px black;
+    overflow: hidden;
+    text-align: center;
+    
+}
+.image-container img:hover{
+    transform: scale(1.1) rotate(-5deg);
+}
+
+
+/* footer styling */
+
+footer{
+    text-align: center;
+    color: rgb(117, 195, 169);
+    padding: 15px;
+}
+
+footer span{
+    color: black;
+    font-weight: bold;
+}
